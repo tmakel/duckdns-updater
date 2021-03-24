@@ -15,7 +15,7 @@ IP_DETECT_URL=`curl -s 'http://checkip.dyndns.com/'`
 IP=`echo $IP_DETECT_URL | grep -Po "\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b"`
 
 ## IP auto detect update url
-UPDATE_URL='https://www.duckdns.org/update?domains='$DOMAINS'&token='$TOKEN'&verbose=true'
+#UPDATE_URL='https://www.duckdns.org/update?domains='$DOMAINS'&token='$TOKEN'&verbose=true'
 
 ## Explicit update url
 UPDATE_URL='https://www.duckdns.org/update?domains='$DOMAINS'&ip='$IP'&token='$TOKEN'&verbose=true'
