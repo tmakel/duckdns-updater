@@ -1,5 +1,5 @@
 # duckdns-updater
-Simple BASH shell script for updating the IPv4 IP of a DuckDNS domain
+Simple BASH shell script for updating the IPv4 address of DuckDNS domains.
 
 # Usage
 - Clone this repo: `git clone https://github.com/tmakel/duckdns-updater.git`
